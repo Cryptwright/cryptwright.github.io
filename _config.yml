@@ -1,0 +1,15 @@
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+title: "" # the name of your site, e.g. ACME Corp.
+
+sass:
+  sass_dir: _sass
+
+collections:
+  releases:
+  production:
+
+
+## Design Notes
+## After realizing I was adding too much too soon i'm removing the blog, product details, and mailing list until later.
+## Their efforts are still here just hidden until time to use.

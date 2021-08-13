@@ -1,0 +1,22 @@
+<div class="bg-primary">
+<div class="container">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark well py-0">
+      <a class="navbar-brand" href="#">Chris Valentine | Cryptwright Publishing</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+
+            {% for item in site.data.navbar %}
+              <li class="nav-item active">
+                <a class="nav-link" href="{{ item.link }}"> {{ item.name }} </a>
+              </li>
+            {% endfor %}
+
+        </ul>
+
+      </div>
+    </nav>
+</div></div>
