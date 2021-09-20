@@ -2420,7 +2420,7 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 @media (min-width: 992px) { .list-group-item { width: 23%; margin: 5px 1% !important; } }
 
-body { background: url(/cryptwright/assets/img/spookyhouse.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
+body { background: url(/assets/img/spookyhouse.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; background-size: cover; -o-background-size: cover; }
 
 .opacity-0 { opacity: 0 !important; }
 
